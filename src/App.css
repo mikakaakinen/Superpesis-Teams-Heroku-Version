@@ -1,0 +1,9 @@
+.styled-link {
+  display: block; /* Tekee linkistä lohko-tason elementin, kuten h3 */
+  font-size: 1.17rem; /* Säädetään fonttikoko vastaamaan h3:tä (yleensä noin 1.17em) */
+  font-weight: bold; /* H3 on yleensä lihavoitu */
+  color: #fff;
+  background-color: #2d55ff;
+  padding: 1rem 0 1rem 0;
+  text-decoration: underline;
+}
