@@ -18,7 +18,7 @@ const Footer = () => {
         © {currentYear} Made with
         <span style={{ color: '#ff0000' }}> &hearts;</span> in Finland <br />
         Tämä sivusto on epävirallinen Superpesikseen liittyvä harrastesivusto.
-        Kuvat ja logot ovat Wikipediasta. Niiden oikeudet löytyvät{' '}
+        Kuvat ja logot ovat lähinnä Wikipediasta. Niiden oikeudet löytyvät{' '}
         <Link
           css={{
             textDecoration: 'underline',
