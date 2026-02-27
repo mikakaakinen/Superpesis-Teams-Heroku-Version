@@ -294,6 +294,7 @@ function GetTeamInfo({ id }) {
                       color: '#fff',
                       backgroundColor: '#EF4444',
                       padding: '0.75rem 0',
+                      marginTop: '0',
                       marginBottom: '0',
                     }}
                   >
