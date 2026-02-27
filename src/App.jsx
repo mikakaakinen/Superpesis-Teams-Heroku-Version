@@ -352,7 +352,7 @@ function GetTeamInfo({ id }) {
                     justifyContent: 'flex-end',
                     display: 'flex',
                     width: '300px',
-                    margin: '0px 15px 20px',
+                    margin: '0px 20px 20px',
                     border: '2px solid #000',
                     backgroundColor: '#ffcb05',
                   }}
@@ -371,7 +371,7 @@ function GetTeamInfo({ id }) {
                       }}
                       src={coach.image}
                       key={coach.id}
-                      alt='pelaajan kuva'
+                      alt='pelinjohtajan kuva'
                     />
                   </div>
                   <div
