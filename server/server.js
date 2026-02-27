@@ -1198,7 +1198,7 @@ const teams = [
     description:
       'Kouvolan Pallonlyöjät ry. on pesäpallon erikoisseura Kouvolasta. Joukkueen nimestä käytetään lyhennystä KPL ja kutsumanimeä Kopla. Joukkueen kotikenttä on Kouvolan urheilupuistossa sijaitseva KSS Areena. Areenan yleisöennätys on 5648 katsojaa ja se syntyi miesten Superpesiksen kolmannessa finaaliottelussa Kouvola-Vimpeli 11.9.2010. Seuran tunnusvärit ovat musta ja keltainen',
     achievements:
-      'Kouvolan Pallonlyöjien miesten pesäpallojoukkue on saavuttanut kultaa vuosina  1966, 1967, 1968, 1969 ja 1976. Lisäksi se on saavuttanut hopeaa yhdeksän kertaa (1943, 1955, 1960, 1970, 2009, 2010, 2018, 2020 ja 2021) ja pronssia seitsemä<n></n> kertaa ( 1954, 1959, 1972, 1977, 2019, 2024 ja 2025).',
+      'Kouvolan Pallonlyöjien miesten pesäpallojoukkue on saavuttanut kultaa vuosina  1966, 1967, 1968, 1969 ja 1976. Lisäksi se on saavuttanut hopeaa yhdeksän kertaa (1943, 1955, 1960, 1970, 2009, 2010, 2018, 2020 ja 2021) ja pronssia seitsemän kertaa ( 1954, 1959, 1972, 1977, 2019, 2024 ja 2025).',
     arena: 'KSS Energia Areena',
     arena_image: '/images/kss_energia_areena.jpg',
     players: [

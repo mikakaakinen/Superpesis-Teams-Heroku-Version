@@ -282,11 +282,27 @@ function GetTeamInfo({ id }) {
                     }}
                   >
                     <h3> {player.player_name} </h3>
-                    <h3 style={{ color: '#EF4444' }}>
+                    <h3
+                      style={{
+                        color: '#EF4444',
+                        fontSize: '0.9rem',
+                        margin: '4px 0',
+                        wordBreak: 'break-word',
+                        overflowWrap: 'break-word',
+                      }}
+                    >
                       {' '}
                       {player.player_role_in}{' '}
                     </h3>
-                    <h3 style={{ color: '#3B82F6' }}>
+                    <h3
+                      style={{
+                        color: '#3B82F6',
+                        fontSize: '0.9rem',
+                        margin: '4px 0',
+                        wordBreak: 'break-word',
+                        overflowWrap: 'break-word',
+                      }}
+                    >
                       {' '}
                       {player.player_role_out}{' '}
                     </h3>
