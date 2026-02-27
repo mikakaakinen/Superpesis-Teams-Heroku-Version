@@ -299,6 +299,7 @@ function GetTeamInfo({ id }) {
                         color: '#fff',
                         backgroundColor: '#EF4444',
                         padding: '0.75rem 0',
+                        marginBottom: '0',
                       }}
                     >
                       {' '}
@@ -310,6 +311,7 @@ function GetTeamInfo({ id }) {
                         color: '#fff',
                         backgroundColor: '#3B82F6',
                         padding: '0.75rem 0',
+                        marginBottom: '0',
                       }}
                     >
                       {' '}
