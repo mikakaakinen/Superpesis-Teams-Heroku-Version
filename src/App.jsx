@@ -249,7 +249,7 @@ function GetTeamInfo({ id }) {
                     flexDirection: 'column',
                     justifyContent: 'flex-end',
                     display: 'flex',
-                    width: '220px',
+                    width: '300px',
                     margin: '0px 15px 20px',
                     border: '2px solid #000',
                     backgroundColor: '#ffcb05',
