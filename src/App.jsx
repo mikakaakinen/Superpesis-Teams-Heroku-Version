@@ -298,6 +298,7 @@ function GetTeamInfo({ id }) {
                         textAlign: 'center',
                         color: '#fff',
                         backgroundColor: '#EF4444',
+                        padding: '0.75rem 0',
                       }}
                     >
                       {' '}
@@ -308,6 +309,7 @@ function GetTeamInfo({ id }) {
                         textAlign: 'center',
                         color: '#fff',
                         backgroundColor: '#3B82F6',
+                        padding: '0.75rem 0',
                       }}
                     >
                       {' '}
