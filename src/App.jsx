@@ -250,7 +250,7 @@ function GetTeamInfo({ id }) {
                     justifyContent: 'flex-end',
                     display: 'flex',
                     width: '300px',
-                    margin: '0px 15px 20px',
+                    margin: '0px 20px 40px',
                     border: '2px solid #000',
                     backgroundColor: '#ffcb05',
                     transition: 'transform 0.3s ease',
