@@ -276,52 +276,46 @@ function GetTeamInfo({ id }) {
                       alt='pelaajan kuva'
                     />
                   </div>
-                  <div
+                  <h3
                     css={{
                       textAlign: 'center',
-                      padding: '0.5rem 0 0 0',
-                      width: '100%',
+                      color: '#fff',
                       backgroundColor: '#1F2937',
-                      color: '#FFFFFF',
+                      padding: '0.75rem 0',
+                      marginBottom: '0',
                     }}
                   >
-                    <h3
-                      css={{
-                        textAlign: 'center',
-                      }}
-                    >
-                      {' '}
-                      {player.player_name}{' '}
-                    </h3>
-                    <h3
-                      style={{
-                        textAlign: 'center',
-                        color: '#fff',
-                        backgroundColor: '#EF4444',
-                        padding: '0.75rem 0',
-                        marginBottom: '0',
-                      }}
-                    >
-                      {' '}
-                      {player.player_role_in}{' '}
-                    </h3>
-                    <h3
-                      style={{
-                        textAlign: 'center',
-                        color: '#000',
-                        backgroundColor: '#fff000',
-                        padding: '0.75rem 0',
-                        marginTop: '0',
-                        marginBottom: '0',
-                      }}
-                    >
-                      {' '}
-                      {player.player_role_out}{' '}
-                    </h3>
-                    <a className='styled-link' href={player.player_info}>
-                      Info
-                    </a>
-                  </div>
+                    {' '}
+                    {player.player_name}{' '}
+                  </h3>
+                  <h3
+                    css={{
+                      textAlign: 'center',
+                      color: '#fff',
+                      backgroundColor: '#EF4444',
+                      padding: '0.75rem 0',
+                      marginBottom: '0',
+                    }}
+                  >
+                    {' '}
+                    {player.player_role_in}{' '}
+                  </h3>
+                  <h3
+                    css={{
+                      textAlign: 'center',
+                      color: '#000',
+                      backgroundColor: '#fff000',
+                      padding: '0.75rem 0',
+                      marginTop: '0',
+                      marginBottom: '0',
+                    }}
+                  >
+                    {' '}
+                    {player.player_role_out}{' '}
+                  </h3>
+                  <a className='styled-link' href={player.player_info}>
+                    Info
+                  </a>
                 </div>
               ))}
             </div>
@@ -356,7 +350,7 @@ function GetTeamInfo({ id }) {
                     flexDirection: 'column',
                     justifyContent: 'flex-end',
                     display: 'flex',
-                    width: '220px',
+                    width: '300px',
                     margin: '0px 15px 20px',
                     border: '2px solid #000',
                     backgroundColor: '#ffcb05',
@@ -371,8 +365,8 @@ function GetTeamInfo({ id }) {
                     <img
                       css={{
                         width: '100%',
-                        maxWidth: '100%',
                         height: 'auto',
+                        objectFit: 'cover',
                       }}
                       src={coach.image}
                       key={coach.id}

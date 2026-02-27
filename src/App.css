@@ -4,7 +4,7 @@
   font-weight: bold; /* H3 on yleensä lihavoitu */
   color: #fff;
   background-color: #2d55ff;
-  padding: 1rem 0 1rem 0;
+  padding: 0.75rem 0;
   text-decoration: underline;
   margin: 0;
 }
