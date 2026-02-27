@@ -309,7 +309,7 @@ function GetTeamInfo({ id }) {
                       style={{
                         textAlign: 'center',
                         color: '#000',
-                        backgroundColor: '#f9bf3b',
+                        backgroundColor: '#fff000',
                         padding: '0.75rem 0',
                         marginTop: '0',
                         marginBottom: '0',
