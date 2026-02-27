@@ -308,9 +308,10 @@ function GetTeamInfo({ id }) {
                     <h3
                       style={{
                         textAlign: 'center',
-                        color: '#fff',
-                        backgroundColor: '#3B82F6',
+                        color: '#000',
+                        backgroundColor: '#f9bf3b',
                         padding: '0.75rem 0',
+                        marginTop: '0',
                         marginBottom: '0',
                       }}
                     >
