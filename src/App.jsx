@@ -246,67 +246,121 @@ function GetTeamInfo({ id }) {
               {data.team.players.map((player) => (
                 <div
                   css={{
-                    flexDirection: 'column',
-                    justifyContent: 'flex-end',
                     display: 'flex',
+                    flexDirection: 'column',
                     width: '220px',
-                    margin: '0px 15px 20px',
-                    border: '2px solid #000',
+                    margin: '0 15px 20px',
+                    borderRadius: '12px',
+                    overflow: 'hidden',
                     backgroundColor: '#ffcb05',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                    ':hover': {
+                      transform: 'translateY(-4px)',
+                      boxShadow: '0 8px 20px rgba(0,0,0,0.25)',
+                    },
                   }}
                   key={player.id}
                 >
+                  {/* KUVA: Gradient overlay */}
                   <div
                     css={{
-                      flexBasis: '80%',
+                      position: 'relative',
                     }}
                   >
                     <img
+                      src={player.image}
+                      alt='pelaajan kuva'
                       css={{
                         width: '100%',
-                        maxWidth: '100%',
-                        height: 'auto',
+                        height: '260px',
+                        objectFit: 'cover',
+                        display: 'block',
                       }}
-                      src={player.image}
-                      key={player.id}
-                      alt='pelaajan kuva'
+                    />
+                    <div
+                      css={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        background:
+                          'linear-gradient(transparent, rgba(0, 0, 0, 0.2))',
+                      }}
                     />
                   </div>
+                  {/* SISÄLTÖ */}
                   <div
                     css={{
-                      textAlign: 'center',
-                      padding: '0.5rem 0 0 0',
-                      width: '100%',
+                      padding: '12px',
                       backgroundColor: '#1F2937',
                       color: '#FFFFFF',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '6px',
                     }}
                   >
-                    <h3> {player.player_name} </h3>
                     <h3
-                      style={{
-                        color: '#EF4444',
-                        fontSize: '0.9rem',
-                        margin: '4px 0',
-                        wordBreak: 'break-word',
-                        overflowWrap: 'break-word',
+                      css={{
+                        margin: 0,
+                        fontSize: '1rem',
+                        fontWeight: '600',
                       }}
                     >
-                      {' '}
-                      {player.player_role_in}{' '}
+                      {player.player_name}
                     </h3>
-                    <h3
-                      style={{
-                        color: '#3B82F6',
-                        fontSize: '0.9rem',
-                        margin: '4px 0',
-                        wordBreak: 'break-word',
-                        overflowWrap: 'break-word',
+                    {/* Roolit: suurennettu fontti */}
+                    <div
+                      css={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '6px',
+                        justifyContent: 'center',
                       }}
                     >
-                      {' '}
-                      {player.player_role_out}{' '}
-                    </h3>
-                    <a className='styled-link' href={player.player_info}>
+                      <span
+                        css={{
+                          backgroundColor: '#EF4444',
+                          padding: '6px 12px',
+                          borderRadius: '999px',
+                          fontSize: '1.17rem', // Suurentaa fonttia
+                          fontWeight: 500,
+                          maxWidth: '100%',
+                          wordBreak: 'break-word',
+                          textAlign: 'center',
+                        }}
+                      >
+                        {player.player_role_in}
+                      </span>
+                      <span
+                        css={{
+                          backgroundColor: '#3B82F6',
+                          padding: '6px 12px',
+                          borderRadius: '999px',
+                          fontSize: '1.17rem', // Suurentaa fonttia
+                          fontWeight: 500,
+                          maxWidth: '100%',
+                          wordBreak: 'break-word',
+                          textAlign: 'center',
+                        }}
+                      >
+                        {player.player_role_out}
+                      </span>
+                    </div>
+                    {/* Info-linkki */}
+                    <a
+                      href={player.player_info}
+                      className='styled-link'
+                      css={{
+                        marginTop: '8px',
+                        fontSize: '0.85rem',
+                        textAlign: 'center',
+                        textDecoration: 'none',
+                        color: '#ffcb05',
+                        fontWeight: 600,
+                      }}
+                    >
                       Info
                     </a>
                   </div>
