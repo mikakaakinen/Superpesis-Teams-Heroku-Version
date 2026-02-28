@@ -18,7 +18,7 @@ const teams = [
     achievements:
       'Ankkurit on pelannut pitkään miesten Superpesiksessä, pesäpallon korkeimmalla sarjatasolla. Alajärven Ankkureiden menestyksekkäin ajanjakso oli 1980-luku, jolloin seura saavutti yhteensä kuusi SM-mitalia. Seura on voittanut miesten pesäpallon suomenmestaruuden kaksi kertaa vuosina 1988–1989. Lisäksi Ankkurit on saavuttanut hopeaa kaksi kertaa (1980 ja 1987) ja pronssia kolme kertaa (1984, 1985 ja 1992).',
     arena: 'Kitro',
-    arena_image: '/images/kitro.webp',
+    arena_image: '/images/kitro.JPG',
     players: [
       {
         id: '1-1',
