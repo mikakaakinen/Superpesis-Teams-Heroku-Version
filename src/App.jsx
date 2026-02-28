@@ -162,7 +162,7 @@ function GetTeamInfo({ id }) {
         <Row
           css={{
             marginTop: '1.5rem',
-            marginBottom: '1.0rem',
+            marginBottom: '1.5rem',
           }}
           justify='center'
         >
