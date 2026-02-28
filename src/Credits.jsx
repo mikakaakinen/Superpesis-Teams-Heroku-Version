@@ -75,7 +75,10 @@ const Credits = () => {
             >
               Hyvinkään Tahko
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
+            <p>
+              Logo: Hyvinkään Tahko, lupa käyttöön saatu Tahkon
+              seurajohdolta{' '}
+            </p>
             <p>Stadion: Otto Karikoski, lisensoitu CC BY-SA 3.0 </p>
           </Col>
         </Row>

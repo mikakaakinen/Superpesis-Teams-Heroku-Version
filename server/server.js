@@ -175,9 +175,9 @@ const teams = [
   {
     id: '2',
     name: 'Hyvinkään Tahko',
-    image: '/images/logo.svg',
+    image: '/images/hyvinkaan_tahko.png',
     description:
-      'Hyvinkään Tahko on vuonna 1915 perustettu hyvinkääläinen urheiluseura. Seura on ottanut nimensä pesäpallon kehittäjän, professori Lauri "Tahko" Pihkalan mukaan. Hyvinkään Tahko on pesäpallon erikoisseura ja miesten sekä naisten joukkueet pelaavat Superpesistä. Tahkon kotikenttänä toimii Pihkalan pesäpallostadion. Sen yleisöennätys syntyi 1992 ensimmäisessä SM-finaalissa Sotkamoa vastaan, jolloin ottelua oli katsomassa 7640 katsojaa. Joukkueen peliasun pääväri on keltainen.',
+      'Hyvinkään Tahko on on perustettu Aseman koululla 26. toukokuuta 1915 ja toimii Hyvinkäällä, Uudellamaalla. Seura on ottanut nimensä pesäpallon kehittäjän, professori Lauri "Tahko" Pihkalan mukaan. Hyvinkään Tahko on pesäpallon erikoisseura ja miesten sekä naisten joukkueet pelaavat Superpesistä. Tahkon kotikenttänä toimii Pihkalan pesäpallostadion. Sen yleisöennätys syntyi 1992 ensimmäisessä SM-finaalissa Sotkamoa vastaan, jolloin ottelua oli katsomassa 7640 katsojaa. Joukkueen peliasun pääväri on keltainen.',
     achievements:
       'Seura on voittanut miesten pesäpallon suomenmestaruuden neljä kertaa vuosina 1979–1981, sekä 2007. Lisäksi Tahko on saavuttanut hopeaa viisi kertaa (1983, 1992, 1994, 1996 ja 1999) ja pronssia myös viisi kertaa (1978, 1982, 1989, 1990 ja 2002).',
     arena: 'Pihkala',
@@ -340,7 +340,7 @@ const teams = [
     name: 'Imatran Pallo-Veikot',
     image: '/images/logo.svg',
     description:
-      'Imatran Pallo-Veikot (IPV) on vuonna 1955 perustettu imatralainen pesäpalloseura, jonka miesten edustusjoukkue pelaa korkeimmalla sarjatasolla Superpesiksessä. IPV harjoittelee ja pelaa kotiottelunsa Ukonniemen stadionilla. Aiemmin kotikenttänä toimi ensin Taininkosken Maneesi ja tämän jälkeen Linnalan kenttä. Joukkueen peliasun päävärit ovat punainen ja valkoinen.',
+      'Imatran Pallo-Veikot (IPV) on perustettu vuonna 1955 perustettu ja toimii Imatralla, Etelä-Karjalassa. IPV harjoittelee ja pelaa kotiottelunsa Ukonniemen stadionilla. Aiemmin kotikenttänä toimi ensin Taininkosken Maneesi ja tämän jälkeen Linnalan kenttä. Joukkueen peliasun päävärit ovat punainen ja valkoinen.',
     achievements:
       'Seura on voittanut miesten pesäpallon suomenmestaruuden neljä kertaa vuosina 1977, 1978, 1986 ja 1991. Lisäksi IPV on saavuttanut hopeaa kolme kertaa (1989, 1990 ja 1993) ja pronssia kerran (1973).',
     arena: 'Ukonniemi (kuvituskuva)',
@@ -511,7 +511,7 @@ const teams = [
     name: 'Joensuun Maila',
     image: '/images/logo.svg',
     description:
-      'Joensuun Maila (JoMa) on vuonna 1958 perustettu joensuulainen pesäpalloseura. Seuran miesten joukkue pelaa kaudella 2019 Suomen korkeimmalla sarjatasolla Superpesiksessä. Joukkueen kotikenttänä toimii Kerubi Stadion, joka sijaitsee Joensuun Mehtimäellä. Talvella harjoitus- ja pelikenttänä toimii Joensuu Areena. Joukkueen peliasun päävärit ovat punainen, valkoinen ja musta.',
+      'Joensuun Maila (JoMa) on perustettu vuonna 1958 ja toimii Joensuussa, Pohjois-Karjalassa. Joukkueen kotikenttänä toimii Kerubi Stadion, joka sijaitsee Joensuun Mehtimäellä. Talvella harjoitus- ja pelikenttänä toimii Joensuu Areena. Joukkueen peliasun päävärit ovat punainen, valkoinen ja musta.',
     achievements:
       'Joensuun Mailan miesten pesäpallojoukkue on saavuttanut kultaa vuosina 2018 ja 2019. Lisäksi Maila on saavuttanut pronssia kuusi kertaa (2013, 2014, 2015, 2016, 2017 ja 2022).',
     arena: 'Kerubi Stadion',
@@ -706,7 +706,7 @@ const teams = [
     name: 'Kempeleen Kiri',
     image: '/images/logo.svg',
     description:
-      'Kempeleen Kiri r.y.[1] on kempeleläinen urheilun yleisseura, jonka lajeja ovat pesäpallo, yleisurheilu, salibandy ja maastohiihto. Kotiottelunsa seura pelaa Sarkkirannan pesäpallostadionilla. Kentän erityispiirre on hiekkatekonurmi, joka on väriltään sininen. Kenttä myös tunnetaan nimellä "Laguuni". Kentän yleisöennätys syntyi vuonna 2015 ottelussa Oulun Lippoa vastaan, jota oli katsomassa 2 702 katsojaa. Joukkueen peliasun päävärit ovat sininen ja musta.',
+      'Kempeleen Kiri on perustettu vuonna 1915 ja toimii Kempeleessä, Pohjois-Pohjanmaalla. Kempeleen Kiri on urheilun yleisseura, jonka lajeja ovat pesäpallo, yleisurheilu, salibandy ja maastohiihto. Kotiottelunsa seura pelaa Sarkkirannan pesäpallostadionilla. Kentän erityispiirre on hiekkatekonurmi, joka on väriltään sininen. Kenttä myös tunnetaan nimellä "Laguuni". Kentän yleisöennätys syntyi vuonna 2015 ottelussa Oulun Lippoa vastaan, jota oli katsomassa 2 702 katsojaa. Joukkueen peliasun päävärit ovat sininen ja musta.',
     achievements:
       'Vuonna 2015 Kempeleen Kirin miesten joukkue nousi Superpesikseen. Seura on voittanut pronssia vuonna 2023',
     arena: 'Sarkkiranta (kuvituskuva)',
@@ -861,7 +861,7 @@ const teams = [
     name: 'Kiteen-Pallo -90',
     image: '/images/logo.svg',
     description:
-      'Kiteen Pallo -90 (KiPa-90) on vuonna 1990 perustettu kiteeläinen pesäpalloseura, joka pelaa Superpesiksessä. KiPan kotikenttä on Kiteen Rantakenttä, joka sijaitsee Kiteenjärven rannalla. Sen yleisöennätys on 5 320, 12. syyskuuta 2000 kolmannesta ja ratkaisevasta finaalista Sotkamon Jymyä vastaan. Joukkueen peliasun päävärit ovat punainen, keltainen, valkoinen ja musta.',
+      'Kiteen Pallo -90 (KiPa-90) on vuonna perustettu vuonna 1990 ja toimii Kiteessä, Pohjois-Karjalassa. KiPan kotikenttä on Kiteen Rantakenttä, joka sijaitsee Kiteenjärven rannalla. Sen yleisöennätys on 5 320, 12. syyskuuta 2000 kolmannesta ja ratkaisevasta finaalista Sotkamon Jymyä vastaan. Joukkueen peliasun päävärit ovat punainen, keltainen, valkoinen ja musta.',
     achievements:
       'Joukkue on voittanut kolme SM-kultaa (1999, 2000, 2005). Lisäksi se on saavuttanut hopeaa kolme kertaa  (1997, 2001 ja 2004) ja pronssia kerran (1998).',
     arena: 'Rantakenttä',
@@ -1009,7 +1009,7 @@ const teams = [
     name: 'Koskenkorvan Urheilijat',
     image: '/images/logo.svg',
     description:
-      'Koskenkorvan Urheilijat (KoU, Koskenkorva, "Kossu"), viralliselta nimeltään Koskenkorvan Urheilijat r.y., on vuonna 1945 perustettu urheilun yleisseura Ilmajoen Koskenkorvan kylästä. Kotiottelunsa KoU pelaa Koskenkorvan Honkalanmäellä sijaitsevalla Sähkökoje-Areenalla, jonka yleisökapasiteetti istumapaikkojen puolesta on 2500 katsojaa. Seuran yleisöennätys on 3547 katsojaa, joka syntyi 26. elokuuta 2007 ottelussa Vimpelin Vetoa vastaan. Joukkueen peliasun päävärit ovat punainen, musta, harmaa ja valkoinen.',
+      'Koskenkorvan Urheilijat (KoU, Koskenkorva, "Kossu"), viralliselta nimeltään Koskenkorvan Urheilijat on perustettu vuonna 1945 ja toimii Ilmajoen Koskenkorvan kylässä, Etelä-Pohjanmaalla. Kotiottelunsa KoU pelaa Koskenkorvan Honkalanmäellä sijaitsevalla Sähkökoje-Areenalla, jonka yleisökapasiteetti istumapaikkojen puolesta on 2500 katsojaa. Seuran yleisöennätys on 3547 katsojaa, joka syntyi 26. elokuuta 2007 ottelussa Vimpelin Vetoa vastaan. Joukkueen peliasun päävärit ovat punainen, musta, harmaa ja valkoinen.',
     achievements:
       'Koskenkorvan Urheilijat on voittanut SM-pronssia 2003 ja 2007.',
     arena: 'Sähkökone Areena',
@@ -1196,7 +1196,7 @@ const teams = [
     name: 'Kouvolan Pallonlyöjät',
     image: '/images/logo.svg',
     description:
-      'Kouvolan Pallonlyöjät ry. on pesäpallon erikoisseura Kouvolasta. Joukkueen nimestä käytetään lyhennystä KPL ja kutsumanimeä Kopla. Joukkueen kotikenttä on Kouvolan urheilupuistossa sijaitseva KSS Areena. Areenan yleisöennätys on 5648 katsojaa ja se syntyi miesten Superpesiksen kolmannessa finaaliottelussa Kouvola-Vimpeli 11.9.2010. Seuran tunnusvärit ovat musta ja keltainen.',
+      'Kouvolan Pallonlyöjät on perustettu 2. lokakuuta vuonna 1931 ja toimii Kouvolassa, Kymenlaaksossa. Kouvolan Pallonlyöjät on pesäpallon erikoisseura. Joukkueen nimestä käytetään lyhennystä KPL ja kutsumanimeä Kopla. Joukkueen kotikenttä on Kouvolan urheilupuistossa sijaitseva KSS Energia Areena. Areenan yleisöennätys on 5648 katsojaa ja se syntyi miesten Superpesiksen kolmannessa finaaliottelussa Kouvola-Vimpeli 11.9.2010. Seuran tunnusvärit ovat musta ja keltainen.',
     achievements:
       'Kouvolan Pallonlyöjien miesten pesäpallojoukkue on saavuttanut kultaa vuosina  1966, 1967, 1968, 1969 ja 1976. Lisäksi se on saavuttanut hopeaa yhdeksän kertaa (1943, 1955, 1960, 1970, 2009, 2010, 2018, 2020 ja 2021) ja pronssia seitsemän kertaa (1954, 1959, 1972, 1977, 2019, 2024 ja 2025).',
     arena: 'KSS Energia Areena',
@@ -1351,7 +1351,7 @@ const teams = [
     name: 'Manse PP',
     image: '/images/logo.svg',
     description:
-      'Manse PP on vuonna 2005 perustettu tamperelainen pesäpalloseura. Manse PP pelaa kotiottelunsa Kaupin pesäpallostadionilla. Joukkueen peliasun päävärit ovat musta ja punainen. Seuralla on myös menestyvä naisjoukkue Superpesiksessä. Joukkueen peliasun päävärit ovat musta, valkoinen ja punainen.',
+      'Manse PP on perustettu 11. huhtikuuta 2005 ja toimii Tampereella, Pirkanmaalla. Manse PP on pesäpallon erikoisseura. Manse PP pelaa kotiottelunsa Kaupin pesäpallostadionilla. Joukkueen peliasun päävärit ovat musta ja punainen. Seuralla on myös menestyvä naisjoukkue Superpesiksessä. Joukkueen peliasun päävärit ovat musta, valkoinen ja punainen.',
     achievements:
       'Manse PP nousi kaudeksi 2020 Superpesikseen. Seura on voittanut kultaa vuosina 2021 ja 2025 ja hopeaa vuonna 2022 ja 2024.',
     arena: 'Kaupin urheilustadion',
@@ -1506,7 +1506,7 @@ const teams = [
     name: 'Pattijoen Urheilijat',
     image: '/images/logo.svg',
     description:
-      'Pattijoen Urheilijat eli PattU on raahelainen pesäpalloseura. Seuran kotikenttä Miilu-areena (Rännäri) sijaitsee Pattijoella, joka liitettiin Raahen kaupunkiin vuonna 2003. Rännärin katsojaennätys on vuoden 2008 Itä-Länsi -ottelusta, jolloin katsojia oli paikalla yhteensä 4830. Pattijoen Urheilijoiden omassa kotipelissä katsojaennätys on niin ikään vuodelta 2008 neljännessä finaalissa, jolloin katsojia oli 3512. Joukkueen peliasun päävärit ovat musta ja keltainen.',
+      'Pattijoen Urheilijat eli PattU on perustettu vuonna 1928 ja toimii Raahessa, Pohjois-Pohjanmaalla. Pattijoen Urheilijoiden pesäpallotoiminta käynnistettiin uudelleen vuonna 1972. Seuran kotikenttä Miilu-areena (Rännäri) sijaitsee Pattijoella, joka liitettiin Raahen kaupunkiin vuonna 2003. Rännärin katsojaennätys on vuoden 2008 Itä-Länsi -ottelusta, jolloin katsojia oli paikalla yhteensä 4830. Pattijoen Urheilijoiden omassa kotipelissä katsojaennätys on niin ikään vuodelta 2008 neljännessä finaalissa, jolloin katsojia oli 3512. Joukkueen peliasun päävärit ovat musta ja keltainen.',
     achievements:
       'Pattijoen Urheilijoiden miesten joukkue on saavuttanut yhden Suomen mestaruuden (2008) ja kaksi hopeaa (2002 ja 2006) ja kolme pronssia (2001, 2011 ja 2012).',
     arena: 'Rännäri (kuvituskuva)',
@@ -1670,7 +1670,7 @@ const teams = [
     name: 'Sotkamon Jymy',
     image: '/images/sotkamon_jymy.png',
     description:
-      'Sotkamon Jymy on vuonna 1909 perustettu sotkamolainen urheilun yleisseura. Jymy tunnetaan parhaiten pesäpallojaostostaan, joka on lajissaan Suomen kaikkien aikojen menestynein seura 18 Suomen mestaruudellaan. Sotkamon Jymy pelaa kotiottelunsa Sotkamon keskustassa, Sapsojärven rannalla sijaitsevalla Hiukan pesäpallostadionilla. Joukkueen peliasun päävärit ovat oranssi ja turkoosi.',
+      'Sotkamon Jymy on perustettu vuonna 1909 ja toimii Sotkamossa, Kainuussa. Sotkamon Jymy on sotkamolainen urheilun yleisseura. Jymy tunnetaan parhaiten pesäpallojaostostaan, joka on lajissaan Suomen kaikkien aikojen menestynein seura 18 Suomen mestaruudellaan. Sotkamon Jymy pelaa kotiottelunsa Sotkamon keskustassa, Sapsojärven rannalla sijaitsevalla Hiukan pesäpallostadionilla. Joukkueen peliasun päävärit ovat oranssi ja turkoosi.',
     achievements:
       'Sotkamon Jymy on yksi Suomen kaikkien aikojen menestyksekkäimpiä pesäpalloseuroja. Sotkamon mitalitilillä on mestaruudet vuosilta 1963, 1990, 1992, 1993, 1995, 1996, 1997, 2001, 2002, 2003, 2004, 2006, 2009, 2011, 2012, 2013, 2014, 2015, 2020, 2023 ja 2024. Hopeamitaleja on kahdeksan kappaletta vuosilta 1991, 2000, 2007, 2008, 2016, 2017, 2019 ja 2025. Pronssisia mitaleja on kolme kappaletta: 1994, 2005 ja 2010. Sotkamon Jymyllä oli vuosien 2000 ja 2017 välillä ennätyksellinen 18 mitalin mitaliputki.',
     arena: 'Hiukka',
@@ -1866,7 +1866,7 @@ const teams = [
     name: 'Vimpelin Veto',
     image: '/images/vimpelin_veto.png',
     description:
-      'Vimpelin Veto on 27. toukokuuta 1934 perustettu vimpeliläinen urheiluseura. Nykyisin seuran lajivalikoimana on pesäpallo, koripallo ja elektroninen urheilu. Vimpelin Vedon pesäpallojoukkueen kotikenttä on Saarikenttä. Vuonna 2010 Vimpelin Veto voitti finaaleissa Kouvolan Pallonlyöjät, ja toisessa loppuottelussa syntyi Saarikentällä pelattujen SM-sarjaotteluiden yleisöennätys 5 216 katsojaa. Joukkueen peliasun päävärit ovat valkoinen ja sininen.',
+      'Vimpelin Veto on perustettu 27. toukokuuta vuonna 1934 ja toimii Vimpelissä, Etelä-Pohjanmaalla. Nykyisin seuran lajivalikoimana on pesäpallo, koripallo ja elektroninen urheilu. Vimpelin Vedon pesäpallojoukkueen kotikenttä on Saarikenttä. Vuonna 2010 Vimpelin Veto voitti finaaleissa Kouvolan Pallonlyöjät, ja toisessa loppuottelussa syntyi Saarikentällä pelattujen SM-sarjaotteluiden yleisöennätys 5 216 katsojaa. Joukkueen peliasun päävärit ovat valkoinen ja sininen.',
     achievements:
       'Vimpelin Vedon miesten pesäpallojoukkue on saavuttanut kultaa vuosina 1960, 1965, 2010, 2016, 2017 ja 2022. Hopealle se on sijoittunut vuosina 1959, 1961, 1962, 1966, 1975, 2011, 2012, 2013, 2014, 2015 ja 2023 sekä pronssille vuosina 1940, 1946, 1952, 1958, 1963, 1964, 1967, 1968, 2009, 2018, 2020 ja 2021.',
     arena: 'Saarikenttä',
