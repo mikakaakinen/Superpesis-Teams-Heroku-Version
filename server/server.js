@@ -14,7 +14,7 @@ const teams = [
     name: 'Alajärven Ankkurit',
     image: '/images/alajarvi.png',
     description:
-      'Alajärven Ankkurit on perustettu 26. marraskuuta 1944 ja toimii Etelä-Pohjanmaalla, Alajärvellä. Alajärven Ankkurit on yleisseura, jonka lajeja ovat pesäpallon lisäksi mm. hiihto, lentopallo ja yleisurheilu. Pesäpallo on vuosien myötä muodostunut Ankkureiden suurimmaksi ja tunnetuimmaksi lajiksi. Ankkurien kotikenttänä toimii Kitron pesäpallostadion, jonka kapasiteetti on 4000. Sen yleisöennätys 6822 katsojaa syntyi Itä-Länsi ottelussa vuonna 1995. Joukkueen peliasun päävärit ovat keltainen ja sininen.',
+      'Alajärven Ankkurit on perustettu 26. marraskuuta 1944 ja toimii Alajärvellä, Etelä-Pohjanmaalla. Alajärven Ankkurit on yleisseura, jonka lajeja ovat pesäpallon lisäksi mm. hiihto, lentopallo ja yleisurheilu. Pesäpallo on vuosien myötä muodostunut Ankkureiden suurimmaksi ja tunnetuimmaksi lajiksi. Ankkurien kotikenttänä toimii Kitron pesäpallostadion, jonka kapasiteetti on 4000. Sen yleisöennätys 6822 katsojaa syntyi Itä-Länsi ottelussa vuonna 1995. Joukkueen peliasun päävärit ovat keltainen ja sininen.',
     achievements:
       'Ankkurit on pelannut pitkään miesten Superpesiksessä, pesäpallon korkeimmalla sarjatasolla. Alajärven Ankkureiden menestyksekkäin ajanjakso oli 1980-luku, jolloin seura saavutti yhteensä kuusi SM-mitalia. Seura on voittanut miesten pesäpallon suomenmestaruuden kaksi kertaa vuosina 1988–1989. Lisäksi Ankkurit on saavuttanut hopeaa kaksi kertaa (1980 ja 1987) ja pronssia kolme kertaa (1984, 1985 ja 1992).',
     arena: 'Kitro',
