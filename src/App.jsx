@@ -343,6 +343,10 @@ function GetTeamInfo({ id }) {
                 flexDirection: 'row',
                 justifyContent: 'center',
                 width: '100%',
+                transition: 'transform 0.3s ease',
+                ':hover': {
+                  transform: 'translateY(-4px)',
+                },
               }}
             >
               {data.team.coaches.map((coach) => (
