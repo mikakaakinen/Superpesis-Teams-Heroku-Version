@@ -343,10 +343,6 @@ function GetTeamInfo({ id }) {
                 flexDirection: 'row',
                 justifyContent: 'center',
                 width: '100%',
-                transition: 'transform 0.3s ease',
-                ':hover': {
-                  transform: 'translateY(-4px)',
-                },
               }}
             >
               {data.team.coaches.map((coach) => (
@@ -359,6 +355,10 @@ function GetTeamInfo({ id }) {
                     margin: '0px 20px 20px',
                     border: '2px solid #000',
                     backgroundColor: '#ffcb05',
+                    transition: 'transform 0.3s ease',
+                    ':hover': {
+                      transform: 'translateY(-4px)',
+                    },
                   }}
                   key={coach.id}
                 >
