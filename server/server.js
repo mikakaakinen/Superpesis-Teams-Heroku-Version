@@ -509,13 +509,13 @@ const teams = [
   {
     id: '4',
     name: 'Joensuun Maila',
-    image: '/images/logo.svg',
+    image: '/images/joensuun_maila.png',
     description:
       'Joensuun Maila (JoMa) on perustettu vuonna 1958 ja toimii Joensuussa, Pohjois-Karjalassa. Joukkueen kotikenttänä toimii Kerubi Stadion, joka sijaitsee Joensuun Mehtimäellä. Talvella harjoitus- ja pelikenttänä toimii Joensuu Areena. Joukkueen peliasun päävärit ovat punainen, valkoinen ja musta.',
     achievements:
       'Joensuun Mailan miesten pesäpallojoukkue on saavuttanut kultaa vuosina 2018 ja 2019. Lisäksi Maila on saavuttanut pronssia kuusi kertaa (2013, 2014, 2015, 2016, 2017 ja 2022).',
-    arena: 'Kerubi Stadion',
-    arena_image: '/images/kerubi.jpg',
+    arena: 'Ilosaari Rock Stadion',
+    arena_image: '/images/ilosaarirock_stadion.jpg',
     players: [
       {
         id: '4-1',
