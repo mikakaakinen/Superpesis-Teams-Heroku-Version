@@ -859,7 +859,7 @@ const teams = [
   {
     id: '6',
     name: 'Kiteen-Pallo -90',
-    image: '/images/kempeleen_kiri.png',
+    image: '/images/kiteen_pallo.png',
     description:
       'Kiteen Pallo -90 (KiPa-90) on vuonna perustettu vuonna 1990 ja toimii Kiteessä, Pohjois-Karjalassa. KiPan kotikenttä on Kiteen Rantakenttä, joka sijaitsee Kiteenjärven rannalla. Sen yleisöennätys on 5 320, 12. syyskuuta 2000 kolmannesta ja ratkaisevasta finaalista Sotkamon Jymyä vastaan. Joukkueen peliasun päävärit ovat punainen, keltainen, valkoinen ja musta.',
     achievements:

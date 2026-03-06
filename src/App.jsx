@@ -151,7 +151,7 @@ function GetTeamInfo({ id }) {
             <h2
               css={{
                 textDecoration: 'underline',
-                margin: '1.0rem 0 0.3rem 0',
+                margin: '1.5rem 0 0.3rem 0',
               }}
             >
               {' '}
