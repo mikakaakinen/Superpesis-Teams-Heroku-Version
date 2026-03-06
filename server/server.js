@@ -511,7 +511,7 @@ const teams = [
     name: 'Joensuun Maila',
     image: '/images/joensuun_maila.png',
     description:
-      'Joensuun Maila (JoMa) on perustettu vuonna 1958 ja toimii Joensuussa, Pohjois-Karjalassa. Joukkueen kotikenttänä toimii Kerubi Stadion, joka sijaitsee Joensuun Mehtimäellä. Talvella harjoitus- ja pelikenttänä toimii Joensuu Areena. Joukkueen peliasun päävärit ovat punainen, valkoinen ja musta.',
+      'Joensuun Maila (JoMa) on perustettu vuonna 1958 ja toimii Joensuussa, Pohjois-Karjalassa. Joukkueen kotikenttänä toimii Ilosaari Rock Stadion, joka sijaitsee Joensuun Mehtimäellä. Talvella harjoitus- ja pelikenttänä toimii Joensuu Areena. Joukkueen peliasun päävärit ovat punainen, valkoinen ja musta.',
     achievements:
       'Joensuun Mailan miesten pesäpallojoukkue on saavuttanut kultaa vuosina 2018 ja 2019. Lisäksi Maila on saavuttanut pronssia kuusi kertaa (2013, 2014, 2015, 2016, 2017 ja 2022).',
     arena: 'Ilosaari Rock Stadion',
@@ -993,7 +993,7 @@ const teams = [
         player_name: 'Anttoni Jakobsson',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Pesävahti',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/7929',
       },
       {
         id: '6-17',
@@ -1001,7 +1001,7 @@ const teams = [
         player_name: 'Kasperi Kaksonen',
         player_role_in: 'Etenijä',
         player_role_out: 'Pesävahti',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/9472',
       },
       {
         id: '6-18',
@@ -1009,7 +1009,7 @@ const teams = [
         player_name: 'Niko Halttunen',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Pesävahti',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/11152',
       },
       {
         id: '6-19',
@@ -1017,7 +1017,7 @@ const teams = [
         player_name: 'Anssi Halttunen',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Sieppari',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/15697',
       },
     ],
     coaches: [
