@@ -704,13 +704,13 @@ const teams = [
   {
     id: '5',
     name: 'Kempeleen Kiri',
-    image: '/images/logo.svg',
+    image: '/images/kempeleen_kiri.png',
     description:
       'Kempeleen Kiri on perustettu vuonna 1915 ja toimii Kempeleessä, Pohjois-Pohjanmaalla. Kempeleen Kiri on urheilun yleisseura, jonka lajeja ovat pesäpallo, yleisurheilu, salibandy ja maastohiihto. Kotiottelunsa seura pelaa Sarkkirannan pesäpallostadionilla. Kentän erityispiirre on hiekkatekonurmi, joka on väriltään sininen. Kenttä myös tunnetaan nimellä "Laguuni". Kentän yleisöennätys syntyi vuonna 2015 ottelussa Oulun Lippoa vastaan, jota oli katsomassa 2 702 katsojaa. Joukkueen peliasun päävärit ovat sininen ja musta.',
     achievements:
       'Vuonna 2015 Kempeleen Kirin miesten joukkue nousi Superpesikseen. Seura on voittanut pronssia vuonna 2023',
     arena: 'Sarkkiranta (kuvituskuva)',
-    arena_image: '/images/stadion.jpg',
+    arena_image: '/images/sarkkiranta_stadion.jpg',
     players: [
       {
         id: '5-1',
@@ -859,13 +859,13 @@ const teams = [
   {
     id: '6',
     name: 'Kiteen-Pallo -90',
-    image: '/images/logo.svg',
+    image: '/images/kempeleen_kiri.png',
     description:
       'Kiteen Pallo -90 (KiPa-90) on vuonna perustettu vuonna 1990 ja toimii Kiteessä, Pohjois-Karjalassa. KiPan kotikenttä on Kiteen Rantakenttä, joka sijaitsee Kiteenjärven rannalla. Sen yleisöennätys on 5 320, 12. syyskuuta 2000 kolmannesta ja ratkaisevasta finaalista Sotkamon Jymyä vastaan. Joukkueen peliasun päävärit ovat punainen, keltainen, valkoinen ja musta.',
     achievements:
       'Joukkue on voittanut kolme SM-kultaa (1999, 2000, 2005). Lisäksi se on saavuttanut hopeaa kolme kertaa  (1997, 2001 ja 2004) ja pronssia kerran (1998).',
     arena: 'Rantakenttä',
-    arena_image: '/images/rantakentta.jpg',
+    arena_image: '/images/rantakentta_stadion.jpg',
     players: [
       {
         id: '6-1',
@@ -985,6 +985,38 @@ const teams = [
         player_name: 'Lassi Vasarainen',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Koppari',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+      },
+      {
+        id: '6-16',
+        image: '/images/placeholder.png',
+        player_name: 'Anttoni Jakobsson',
+        player_role_in: 'Vaihtaja',
+        player_role_out: 'Pesävahti',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+      },
+      {
+        id: '6-17',
+        image: '/images/placeholder.png',
+        player_name: 'Kasperi Kaksonen',
+        player_role_in: 'Etenijä',
+        player_role_out: 'Pesävahti',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+      },
+      {
+        id: '6-18',
+        image: '/images/placeholder.png',
+        player_name: 'Niko Halttunen',
+        player_role_in: 'Vaihtaja',
+        player_role_out: 'Pesävahti',
+        player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
+      },
+      {
+        id: '6-19',
+        image: '/images/placeholder.png',
+        player_name: 'Anssi Halttunen',
+        player_role_in: 'Vaihtaja',
+        player_role_out: 'Sieppari',
         player_info: 'https://www.pesistulokset.fi/pelaaja/9528',
       },
     ],
