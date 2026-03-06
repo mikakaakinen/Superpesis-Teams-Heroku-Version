@@ -106,8 +106,14 @@ const Credits = () => {
             >
               Joensuun Maila
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
-            <p>Stadion: Muinaishistoria, lisensoitu CC BY-SA 4.0 </p>
+            <p>
+              Logo: Joensuun Maila, lupa käyttöön saatu Mailan
+              seurajohdolta{' '}
+            </p>
+            <p>
+              Stadion: Joensuun Maila, lupa käyttöön saatu Mailan
+              seurajohdolta{' '}
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
@@ -120,8 +126,12 @@ const Credits = () => {
             >
               Kempeleen Kiri
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
-            <p>Stadion: Pixabay/alessandra1barbieri</p>
+            <p>
+              Logo: Kempeleen Kiri, lupa käyttöön saatu Kirin seurajohdolta{' '}
+            </p>
+            <p>
+              Stadion: Kempeleen Kiri, lupa käyttöön saatu Kirin seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
@@ -134,8 +144,10 @@ const Credits = () => {
             >
               Kiteen Pallo
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
-            <p>Stadion: JustinCase1994, lisensoitu CC BY-SA 4.0</p>
+            <p>Logo: Kiteen Pallo, lupa käyttöön saatu Kiteen seurajohdolta </p>
+            <p>
+              Stadion: Kiteen Pallo, lupa käyttöön saatu Kiteen seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
