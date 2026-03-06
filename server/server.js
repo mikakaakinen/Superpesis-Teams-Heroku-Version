@@ -709,7 +709,7 @@ const teams = [
       'Kempeleen Kiri on perustettu vuonna 1915 ja toimii Kempeleessä, Pohjois-Pohjanmaalla. Kempeleen Kiri on urheilun yleisseura, jonka lajeja ovat pesäpallo, yleisurheilu, salibandy ja maastohiihto. Kotiottelunsa seura pelaa Sarkkirannan pesäpallostadionilla. Kentän erityispiirre on hiekkatekonurmi, joka on väriltään sininen. Kenttä myös tunnetaan nimellä "Laguuni". Kentän yleisöennätys syntyi vuonna 2015 ottelussa Oulun Lippoa vastaan, jota oli katsomassa 2 702 katsojaa. Joukkueen peliasun päävärit ovat sininen ja musta.',
     achievements:
       'Vuonna 2015 Kempeleen Kirin miesten joukkue nousi Superpesikseen. Seura on voittanut pronssia vuonna 2023',
-    arena: 'Sarkkiranta (kuvituskuva)',
+    arena: 'Sarkkiranta',
     arena_image: '/images/sarkkiranta_stadion.jpg',
     players: [
       {
