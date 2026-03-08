@@ -421,6 +421,7 @@ function GetTeamInfo({ id }) {
         <Row justify='center'>
           <Col
             css={{
+              width: '100%',
               maxWidth: '800px',
               margin: '0 auto',
             }}
