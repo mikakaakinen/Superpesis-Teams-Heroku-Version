@@ -421,7 +421,7 @@ function GetTeamInfo({ id }) {
         <Row justify='center'>
           <Col
             css={{
-              maxWidth: '800 px',
+              maxWidth: '800px',
               margin: '0 auto',
             }}
           >
@@ -433,14 +433,11 @@ function GetTeamInfo({ id }) {
                 boxShadow: '0 4px 15px rgba(0,0,0,0.2)',
                 border: 'none',
               }}
-              width='560'
-              height='315'
               src={data.team.video}
               title='YouTube video player'
-              frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              referrerpolicy='strict-origin-when-cross-origin'
-              allowfullscreen
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen
             ></iframe>
           </Col>
         </Row>
