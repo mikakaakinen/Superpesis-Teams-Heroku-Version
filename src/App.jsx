@@ -410,7 +410,7 @@ function GetTeamInfo({ id }) {
             <h2
               css={{
                 textDecoration: 'underline',
-                marginTop: '1.5rem',
+                marginTop: '2rem',
                 marginBottom: '2rem',
               }}
             >
