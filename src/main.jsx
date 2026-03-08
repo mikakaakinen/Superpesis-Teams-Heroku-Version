@@ -44,7 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             "source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace",
         },
         h1: {
-          fontSize: '2.5rem',
+          fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
           marginTop: '0.67rem',
           marginBottom: '0.67rem',
           marginLeft: 0,
@@ -54,7 +54,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           letterSpacing: '0.02em',
         },
         h2: {
-          fontSize: '1.5rem',
+          fontSize: 'clamp(1.25rem, 4vw, 1.5rem)',
           marginTop: '0.77rem',
           marginBottom: '0.77rem',
           marginLeft: 0,
@@ -64,7 +64,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           letterSpacing: '0.02em',
         },
         h3: {
-          fontSize: '1.17rem',
+          fontSize: 'clamp(0.9rem, 3.5vw, 1.17rem)',
           marginTop: '0.87rem',
           marginBottom: '0.87rem',
           marginLeft: 0,
@@ -74,7 +74,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           letterSpacing: '0.02em',
         },
         p: {
-          fontSize: '1rem',
+          fontSize: 'clamp(1rem, 2vw, 1.25rem)',
           marginTop: '1rem',
           marginBottom: '1rem',
           marginLeft: 0,

@@ -6,12 +6,16 @@ import { useQuery } from '@apollo/client/react';
 import { Layout, Row, Col } from 'antd';
 import './App.css';
 import Spinner from './Spinner';
+import { toast } from 'react-toastify';
+import { FaHistory, FaUser } from 'react-icons/fa';
+import { GiBiceps } from 'react-icons/gi';
+import { RiCommunityFill } from 'react-icons/ri';
+const icons = [GiBiceps, FaHistory, FaUser, RiCommunityFill];
 const { Content } = Layout;
 const fadeIn = keyframes`
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 `;
-
 const GET_TEAMS = gql`
   {
     teams {
@@ -29,6 +33,11 @@ const GET_TEAM_INFO = gql`
       image
       description
       achievements
+      identities
+      summary
+      facebook
+      X
+      video
       arena
       arena_image
       players {
@@ -61,7 +70,6 @@ function Teams({ onTeamSelected, selectedTeam }) {
   }, [error]);
 
   if (loading) return <Spinner />;
-
   return (
     <>
       <label
@@ -137,7 +145,7 @@ function GetTeamInfo({ id }) {
             src={data.team.arena_image}
             alt='Joukkueen stadion'
             loading='eager'
-            fetchpriority='high'
+            fetchPriority='high'
             css={{
               width: '100%',
               height: '100%',
@@ -183,8 +191,7 @@ function GetTeamInfo({ id }) {
           <Col span={18}>
             <p
               css={{
-                marginTop: 0,
-                marginBottom: '1rem',
+                marginTop: '0.75rem',
                 maxWidth: '100%',
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',
@@ -199,6 +206,8 @@ function GetTeamInfo({ id }) {
           <Col>
             <h2
               css={{
+                marginTop: '1rem',
+                marginBottom: '1rem',
                 textDecoration: 'underline',
               }}
             >
@@ -225,6 +234,222 @@ function GetTeamInfo({ id }) {
             <h2
               css={{
                 textDecoration: 'underline',
+                marginTop: '1rem',
+                marginBottom: '1.5rem',
+              }}
+            >
+              Seuraidentiteetti
+            </h2>
+          </Col>
+        </Row>
+        {data.team.identities.map((identity, index) => {
+          const Icon = icons[index % icons.length];
+          return (
+            <Row justify='center' key={index}>
+              <Col
+                css={{
+                  maxWidth: '800px',
+                }}
+              >
+                <div
+                  css={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '20px',
+                    marginBottom: '1.5rem',
+                    flexWrap: 'wrap',
+                    '@media (max-width: 500px)': {
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      textAlign: 'center',
+                      marginBottom: '1rem',
+                    },
+                  }}
+                >
+                  <Icon
+                    style={{
+                      color: '#f22613',
+                      flexShrink: 0,
+                      fontSize: 'clamp(28px, 6vw, 50px)',
+                      lineHeight: 1,
+                    }}
+                  />
+                  <p
+                    css={{
+                      margin: 0,
+                      maxWidth: '45ch',
+                      minWidth: 0,
+                      flex: '1 1 0',
+                      '@media (max-width: 400px)': {
+                        margin: '0 0 1rem 0',
+                      },
+                    }}
+                  >
+                    {identity}
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          );
+        })}
+        <Row justify='center'>
+          <Col span={18}>
+            <p
+              css={{
+                maxWidth: '100%',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+              }}
+            >
+              {' '}
+              {data.team.summary}{' '}
+            </p>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col>
+            <h2
+              css={{
+                textDecoration: 'underline',
+                marginTop: '1rem',
+                marginBottom: '2rem',
+              }}
+            >
+              Facebook ja X
+            </h2>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col>
+            <div
+              css={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '30px',
+                margin: '0',
+              }}
+            >
+              <img
+                src='/images/FB-logo.png'
+                css={{ width: '40px', height: '40px', color: '#f22613' }}
+              />
+              <a
+                css={{
+                  display: 'block',
+                  fontSize: '1.25rem',
+                  marginBottom: '10px',
+                  color: ' #0066cc',
+                  transition: 'border-bottom 0.2s ease',
+                  borderBottom: '2px solid transparent',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  '&:hover': {
+                    color: '#1e40af', // tummempi hoverissa
+                    borderBottom: '2px solid #0066cc',
+                  },
+                  '&:focus-visible': {
+                    outline: '3px solid #ffcc00',
+                    outlineOffset: '2px',
+                    backgroundColor: '#fff9e6',
+                    borderBottom: '2px solid #0066cc',
+                  },
+                }}
+                href={data.team.facebook}
+              >
+                FB linkki
+              </a>
+            </div>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col>
+            <div
+              css={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '30px',
+                marginTop: '1rem',
+                marginBottom: '0.5rem',
+              }}
+            >
+              <img
+                src='/images/X-logo.png'
+                css={{ width: '40px', height: '40px', color: '#f22613' }}
+              />
+              <a
+                css={{
+                  display: 'block',
+                  fontSize: '1.25rem',
+                  marginBottom: '10px',
+                  color: ' #0066cc',
+                  transition: 'border-bottom 0.2s ease',
+                  borderBottom: '2px solid transparent',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  '&:hover': {
+                    color: '#1e40af', // tummempi hoverissa
+                    borderBottom: '2px solid #0066cc',
+                  },
+                  '&:focus-visible': {
+                    outline: '3px solid #ffcc00',
+                    outlineOffset: '2px',
+                    backgroundColor: '#fff9e6',
+                    borderBottom: '2px solid #0066cc',
+                  },
+                }}
+                href={data.team.X}
+              >
+                X linkki
+              </a>
+            </div>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col>
+            <h2
+              css={{
+                textDecoration: 'underline',
+                marginTop: '1.5rem',
+                marginBottom: '2rem',
+              }}
+            >
+              Video
+            </h2>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col
+            css={{
+              maxWidth: '800 px',
+              margin: '0 auto',
+            }}
+          >
+            <iframe
+              css={{
+                width: '100%',
+                aspectRatio: '16 / 9',
+                borderRadius: '12px',
+                boxShadow: '0 4px 15px rgba(0,0,0,0.2)',
+                border: 'none',
+              }}
+              width='560'
+              height='315'
+              src={data.team.video}
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerpolicy='strict-origin-when-cross-origin'
+              allowfullscreen
+            ></iframe>
+          </Col>
+        </Row>
+        <Row justify='center'>
+          <Col>
+            <h2
+              css={{
+                textDecoration: 'underline',
+                marginTop: '2rem',
                 marginBottom: '2rem',
               }}
             >
