@@ -79,7 +79,9 @@ const Credits = () => {
               Logo: Hyvinkään Tahko, lupa käyttöön saatu Tahkon
               seurajohdolta{' '}
             </p>
-            <p>Stadion: Otto Karikoski, lisensoitu CC BY-SA 3.0 </p>
+            <p>
+              Stadion: Hyvinkään Tahko, lupa käyttöön saatu Tahkon seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
