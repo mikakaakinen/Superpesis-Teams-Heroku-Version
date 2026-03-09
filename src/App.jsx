@@ -178,9 +178,9 @@ function GetTeamInfo({ id }) {
             <img
               css={{
                 display: 'block',
-                width: '250px',
+                width: '100%',
+                maxWidth: '250px',
                 height: 'auto',
-                maxWidth: '100%',
               }}
               src={data.team.image}
               alt='joukkueen logo'
