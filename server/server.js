@@ -28,8 +28,8 @@ const teams = [
     facebook: 'https://www.facebook.com/AlajarvenAnkkurit',
     X: 'https://x.com/ankkurit',
     video: 'https://www.youtube.com/embed/up7Te1toBNg?si=q8kSH0Zm2YdA_NmU',
-    arena: 'Kitro',
-    arena_image: '/images/kitro.JPG',
+    arena: 'Saltex Areena',
+    arena_image: '/images/kitro.jpg',
     players: [
       {
         id: '1-1',
@@ -1801,7 +1801,7 @@ const teams = [
       {
         id: '10-2',
         image: '/images/placeholder.png',
-        coach_name: 'Matti Leponiemi',
+        coach_name: 'Marko Nikula',
         coach_role: '2. Pelinjohtaja',
       },
     ],
