@@ -29,7 +29,7 @@ const teams = [
     X: 'https://x.com/ankkurit',
     video: 'https://www.youtube.com/embed/up7Te1toBNg?si=q8kSH0Zm2YdA_NmU',
     arena: 'Saltex Areena',
-    arena_image: '/images/kitro.jpg',
+    arena_image: '/images/saltex_areena.jpg',
     players: [
       {
         id: '1-1',
