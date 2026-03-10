@@ -1651,8 +1651,8 @@ const teams = [
     facebook: 'https://www.facebook.com/PattijoenUrheilijat',
     X: 'https://x.com/patturaahe',
     video: 'https://www.youtube.com/embed/jddavch-2Ko?si=Cu4H-j2vstXS4LjU',
-    arena: 'Rännäri (kuvituskuva)',
-    arena_image: '/images/stadion.jpg',
+    arena: 'Rännäri',
+    arena_image: '/images/miilu_areena.jpg',
     players: [
       {
         id: '10-1',
