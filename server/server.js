@@ -1635,19 +1635,19 @@ const teams = [
   {
     id: '10',
     name: 'Pattijoen Urheilijat',
-    image: '/images/logo.svg',
+    image: '/images/pattu.png',
     description:
       'Pattijoen Urheilijat eli PattU on perustettu vuonna 1928 ja toimii Raahessa, Pohjois-Pohjanmaalla. Pattijoen Urheilijoiden pesäpallotoiminta käynnistettiin uudelleen vuonna 1972. Seuran kotikenttä Miilu-areena (Rännäri) sijaitsee Pattijoella, joka liitettiin Raahen kaupunkiin vuonna 2003. Rännärin katsojaennätys on vuoden 2008 Itä-Länsi -ottelusta, jolloin katsojia oli paikalla yhteensä 4830. Pattijoen Urheilijoiden omassa kotipelissä katsojaennätys on niin ikään vuodelta 2008 neljännessä finaalissa, jolloin katsojia oli 3512. Joukkueen peliasun päävärit ovat musta ja keltainen.',
     achievements:
       'Pattijoen Urheilijoiden miesten joukkue on saavuttanut yhden Suomen mestaruuden (2008) ja kaksi hopeaa (2002 ja 2006) ja kolme pronssia (2001, 2011 ja 2012).',
     identities: [
-      'Ydinluonne: Työväen sitkeys',
-      'Historia: Mestaruus 2000-luvulla',
-      'Profiili: Taisteluilme',
-      'Yhteisö: Raahen ylpeys',
+      'Ydinluonne: Ylpeä ja yhteisöllinen',
+      'Historia: Mäystimestä mailanvarteen',
+      'Profiili: Sitkeä ja urheilullinen',
+      'Yhteisö: Sata vuotta yhdessä',
     ],
     summary:
-      'PattU tunnetaan periksiantamattomuudestaan. Identiteetti rakentuu sitkeydelle ja vahvalle paikalliselle hengelle.',
+      'Pattijoen Urheilijoiden identiteetti rakentuu sitkeydelle ja vahvalle paikalliselle hengelle.',
     facebook: 'https://www.facebook.com/PattijoenUrheilijat',
     X: 'https://x.com/patturaahe',
     video: 'https://www.youtube.com/embed/jddavch-2Ko?si=Cu4H-j2vstXS4LjU',
