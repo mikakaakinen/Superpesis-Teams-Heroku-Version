@@ -204,8 +204,14 @@ const Credits = () => {
             >
               Pattijoen Urheilijat
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
-            <p>Stadion: Pixabay/alessandra1barbieri</p>
+            <p>
+              Logo: Pattijoen Urheilijat, lupa käyttöön saatu Pattijoen
+              Urheilijoiden seurajohdolta{' '}
+            </p>
+            <p>
+              Stadion: Pattijoen Urheilijat, lupa käyttöön saatu Pattijoen
+              Urheilijoiden seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
