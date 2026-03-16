@@ -1303,7 +1303,7 @@ const teams = [
   {
     id: '8',
     name: 'Kouvolan Pallonlyöjät',
-    image: '/images/logo.svg',
+    image: '/images/kouvolan_pallonlyojat.png',
     description:
       'Kouvolan Pallonlyöjät on perustettu 2. lokakuuta vuonna 1931 ja toimii Kouvolassa, Kymenlaaksossa. Kouvolan Pallonlyöjät on pesäpallon erikoisseura. Joukkueen nimestä käytetään lyhennystä KPL ja kutsumanimeä Kopla. Joukkueen kotikenttä on Kouvolan urheilupuistossa sijaitseva KSS Energia Areena. Areenan yleisöennätys on 5648 katsojaa ja se syntyi miesten Superpesiksen kolmannessa finaaliottelussa Kouvola-Vimpeli 11.9.2010. Seuran tunnusvärit ovat musta ja keltainen.',
     achievements:
