@@ -176,8 +176,14 @@ const Credits = () => {
             >
               Kouvolan Pallonlyöjät
             </h2>
-            <p>Logo: ChatGTP:n luoma </p>
-            <p>Stadion: Tolppa2024, lisensoitu CC BY-SA 4.0</p>
+            <p>
+              Logo: Kouvolan Pallonlyöjät, lupa käyttöön saatu Pallonlyöjien
+              seurajohdolta
+            </p>
+            <p>
+              Stadion: Kouvolan Pallonlyöjät, lupa käyttöön saatu Pallonlyöjien
+              seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
@@ -239,7 +245,7 @@ const Credits = () => {
               Vimpelin Veto
             </h2>
             <p>Logo: Wikipedia, lisensoitu CC BY-SA 4.0 </p>
-            <p>Stadion: Pyhajumbo, lisensoitu CC BY-SA 2.5</p>
+            <p>Stadion: Santeri Syynimaa, lupa saatu Vedon seurajohdolta</p>
           </Col>
         </Row>
         <Row justify='center'>
