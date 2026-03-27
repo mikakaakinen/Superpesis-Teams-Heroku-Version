@@ -1777,14 +1777,6 @@ const teams = [
       {
         id: '10-16',
         image: '/images/placeholder.png',
-        player_name: 'Oskari Lukkari',
-        player_role_in: 'Etenijä',
-        player_role_out: 'Koppari',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/8767',
-      },
-      {
-        id: '10-17',
-        image: '/images/placeholder.png',
         player_name: 'Veeti Venäläinen',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Pesävahti',
