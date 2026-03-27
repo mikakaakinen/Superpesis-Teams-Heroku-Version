@@ -1944,7 +1944,7 @@ const teams = [
       {
         id: '11-15',
         image: '/images/placeholder.png',
-        player_name: 'Miika Keski-Petäjä',
+        player_name: 'Pyry Kohonen',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Lukkari',
         player_info: 'https://www.pesistulokset.fi/pelaaja/7235',
@@ -1968,21 +1968,13 @@ const teams = [
       {
         id: '11-18',
         image: '/images/placeholder.png',
-        player_name: 'Tommi Piirainen',
-        player_role_in: 'Kotiuttaja',
-        player_role_out: 'Jokeri',
-        player_info: 'https://www.pesistulokset.fi/pelaaja/11552',
-      },
-      {
-        id: '11-19',
-        image: '/images/placeholder.png',
         player_name: 'Veeti Kokko',
         player_role_in: 'Vaihtaja',
         player_role_out: 'Sieppari',
         player_info: 'https://www.pesistulokset.fi/pelaaja/10087',
       },
       {
-        id: '11-20',
+        id: '11-19',
         image: '/images/placeholder.png',
         player_name: 'Vertti Veittikoski',
         player_role_in: 'Jokeri',
@@ -1990,7 +1982,7 @@ const teams = [
         player_info: 'https://www.pesistulokset.fi/pelaaja/10950',
       },
       {
-        id: '11-21',
+        id: '11-20',
         image: '/images/placeholder.png',
         player_name: 'Ville Veittikoski',
         player_role_in: 'Vaihtaja',
