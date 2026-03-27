@@ -146,9 +146,9 @@ const Credits = () => {
             >
               Kiteen Pallo
             </h2>
-            <p>Logo: Kiteen Pallo, lupa käyttöön saatu Kiteen seurajohdolta </p>
+            <p>Logo: Kiteen Pallo, lupa käyttöön saatu Pallon seurajohdolta </p>
             <p>
-              Stadion: Kiteen Pallo, lupa käyttöön saatu Kiteen seurajohdolta
+              Stadion: Kiteen Pallo, lupa käyttöön saatu Pallon seurajohdolta
             </p>
           </Col>
         </Row>
@@ -231,7 +231,9 @@ const Credits = () => {
               Sotkamon Jymy
             </h2>
             <p>Logo: Wikipedia, lisensoitu Public Domain </p>
-            <p>Stadion: Otto Karikoski, lisensoitu CC BY-SA 4.0</p>
+            <p>
+              Stadion: Sotkamon Jymy, lupa käyttöön saatu Jymyn seurajohdolta
+            </p>
           </Col>
         </Row>
         <Row justify='center'>
