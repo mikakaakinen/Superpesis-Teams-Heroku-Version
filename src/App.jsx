@@ -150,7 +150,7 @@ function GetTeamInfo({ id }) {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              animation: `${fadeIn} 0.6s ease-out forwards`,
+              animation: `${fadeIn} 0.15s ease-out forwards`,
             }}
           />
         </Row>
