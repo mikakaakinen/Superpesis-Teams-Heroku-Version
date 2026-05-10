@@ -2229,7 +2229,7 @@ async function startServer() {
 
   app.use('/graphql', cors(), express.json(), expressMiddleware(server));
 
-  // ====== SERVE VITE BUILD ======
+  //====== SERVE VITE BUILD ======
   const distPath = path.join(__dirname, '../dist');
 
   app.use(express.static(distPath));
